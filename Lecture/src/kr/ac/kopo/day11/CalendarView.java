@@ -3,7 +3,7 @@ package kr.ac.kopo.day11;
 
 import java.util.Scanner;
 
-	public class CalendarView {
+	public class CalendarView { // 사용자가 무엇을 원하는지에 따라 계속 바꿀 수 있음 
 
 		private Scanner sc = new Scanner(System.in);
 		
