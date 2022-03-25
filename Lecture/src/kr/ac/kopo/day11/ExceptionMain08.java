@@ -50,17 +50,6 @@ public class ExceptionMain08 {
 			e.printStackTrace();
 		}
 		
-		/*
-		Scanner sc = new Scanner(System.in);
-		System.out.print("짝수를 입력 : ");
-		int num = sc.nextInt();
-		
-		if(num < 0 || num % 2 == 1) {
-			System.out.println("잘못입력했습니다");
-		} else {
-			System.out.println("짝수 : " + num);
-		}
-		*/
 	}
 }
 
