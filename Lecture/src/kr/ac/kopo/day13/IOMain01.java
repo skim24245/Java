@@ -16,7 +16,7 @@ public class IOMain01 {
 				if(c == -1) break ;  
 				System.out.println((char)c); //abc를 입력했더니 97 98 99 가 찍히게 됌. 따라서 abc를 원하니까 integer값을 character로 형변환 시키면 됌. 
  				System.out.println(c); 
-			} catch (IOException e) {
+			} catch (IOException e) { // catch 구문에서 e.printStackTrace(); 구문 넣어 어떤 오류가 발생하는지 부터 확인
 				e.printStackTrace();
 
 			}
